@@ -9,7 +9,8 @@ import { Observable, throwError } from 'rxjs';
 export class MineService{
     block:Block
 
-    mineApiURL = "http://localhost:8102/mineBlocks"
+    //mineApiURL = "http://localhost:8102/mineBlocks";
+    mineApiURL = "https://accums-blockchain.cfapps.io/mineBlocks";
 
     constructor(private http: HttpClient) { }
 
